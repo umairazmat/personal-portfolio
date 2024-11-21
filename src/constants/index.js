@@ -93,7 +93,7 @@ import {
 
 import { DiCss3, DiJava, DiMsqlServer, DiRuby } from "react-icons/di";
 
-export const resumeLink = "https://docs.google.com/document/d/1kDW-usuPijWInR3uMPJwitrIUxE7nGOaRcOMokkr_Ow/edit?usp=sharing";
+export const resumeLink = "https://drive.google.com/file/d/1rvZR6VKZKPgWx6Q4d5sz2-0wo5H3Nwoc/view?usp=sharing";
 export const repoLink = "https://github.com/umairazmat/personal-portfolio";
 export const profileLink = "https://www.linkedin.com/in/umairazmat/"
 export const callToAction = "https://www.linkedin.com/in/umairazmat";
