@@ -44,14 +44,14 @@ const ExtraCurricularCard = (props) => {
           <p className="font-poppins font-normal text-[16px] text-white my-1 leading-[24px]">
             {props.title}
           </p>
-          <p className="font-poppins italic font-normal text-[14px] text-dimWhite my-1">
+          <p className="font-poppins italic font-normal text-[14px] text-white my-1">
             {props.duration}
           </p>
         </div>
       </div>
 
       <div>
-        {props.content.map((info,index) => {
+        {props.content.map((info, index) => {
           return <Content key={index} {...info} />;
         })}
       </div>
@@ -63,7 +63,7 @@ const ExtraCurricular = () => {
   return (
     <section id="extraCurricular">
       <h1 className="flex-1 font-poppins font-semibold ss:text-[55px] text-[45px] text-white ss:leading-[80px] leading-[80px]">
-        Extra Curricular
+        Professional Certifications
       </h1>
 
       <div className={`${styles.flexCenter} flex-col relative mb-4 mt-8`}>
