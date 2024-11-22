@@ -50,6 +50,20 @@ import ethforall from "./ethforall.png";
 import ugi from "./ugi.svg";
 import alb from "./alb.svg";
 import gcuf from "./gcuf.svg";
+import ps19 from "./ps19.svg";
+import smit from "./smit.svg";
+import icodeguru from "./icodeguru.svg";
+import lablabai from "./lablabai.svg";
+import qnar from "./qnar.svg";
+import amal from "./amal.svg";
+import ibm from "./ibm.svg";
+import meta from "./meta.svg";
+import pftp from "./pftp.svg";
+import peter from "./peter.jpeg";
+import kamal from "./kamal.jpeg";
+import urooj from "./urooj.jpeg";
+import abdullah from "./abdullah.jpeg";
+import ahmad from "./ahmad.jpeg";
 
 export {
   quotes,
@@ -103,5 +117,21 @@ export {
   ethforall,
   ugi,
   alb,
-  gcuf
+  gcuf,
+  ps19,
+  smit,
+  icodeguru,
+  lablabai,
+  qnar,
+  amal,
+  ibm,
+  meta,
+  pftp,
+  peter,
+  ahmad,
+  kamal,
+  urooj,
+  abdullah,
+
+
 };
