@@ -8,6 +8,9 @@ import { AiOutlineFilePdf } from "react-icons/ai";
 import Button from "./Button";
 import { FaGithub } from "react-icons/fa";
 import { profilePic } from "../assets";
+import { useEffect, useRef } from "react";
+import { motion } from "framer-motion";
+import { CountUp } from "countup.js";
 
 // lottie config
 const defaultOptions = {
@@ -20,6 +23,34 @@ const defaultOptions = {
 };
 
 const Hero = () => {
+  const counters = [
+    { value: 3, suffix: "+", label: "Years of Experience" },
+    { value: 8, suffix: "+", label: "Technologies Mastered" },
+    { value: 20, suffix: "+", label: "Projects Completed" },
+    { value: 1000, suffix: "+", label: "Code Commits" },
+  ];
+
+  // Create refs for each counter
+  const refs = useRef([]);
+
+  useEffect(() => {
+    refs.current.forEach((el, index) => {
+      if (el) {
+        // Ensure proper initialization for all counters
+        const { value, suffix } = counters[index];
+        const countUp = new CountUp(el, value, {
+          duration: 15,
+          suffix: suffix || "",
+        });
+        if (!countUp.error) {
+          countUp.start();
+        } else {
+          console.error(countUp.error);
+        }
+      }
+    });
+  }, []);
+
   return (
     <>
       <section
@@ -133,7 +164,7 @@ const Hero = () => {
       </section>
 
       {/* Counter Section */}
-      <section>
+      {/* <section>
         <div className="mt-10 grid grid-cols-2 sm:grid-cols-4 gap-8 justify-center items-center text-center mb-20">
           {[
             { value: "3+", label: "Years of Experience" },
@@ -152,6 +183,29 @@ const Hero = () => {
                 {stat.label}
               </p>
             </div>
+          ))}
+        </div>
+      </section> */}
+      <section>
+        <div className="mt-10 grid grid-cols-2 sm:grid-cols-4 gap-8 justify-center items-center text-center mb-20">
+          {counters.map((stat, index) => (
+            <motion.div
+              key={index}
+              className="text-center"
+              initial={{ opacity: 0, y: 20 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.5, delay: index * 0.3 }}
+            >
+              <p
+                ref={(el) => (refs.current[index] = el)} // Assign ref correctly
+                className="font-poppins font-bold text-xl sm:text-2xl lg:text-3xl text-white"
+              >
+                {/* CountUp will dynamically update this */}
+              </p>
+              <p className="text-teal-200 text-sm sm:text-base lg:text-lg">
+                {stat.label}
+              </p>
+            </motion.div>
           ))}
         </div>
       </section>
