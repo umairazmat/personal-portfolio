@@ -5,7 +5,7 @@
 ### Deployed links:
 
 - [Netlify](https://umairazmat.netlify.app/)
-- [Vercel](https://umairazmat-self.vercel.app/)
+- [Vercel](https://umairazmat.vercel.app/)
 
 ## Table of Contents 📁
 
