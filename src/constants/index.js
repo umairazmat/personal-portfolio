@@ -26,7 +26,10 @@ import {
   dennisivy,
   manipal,
   icon,
-  ethforall
+  ethforall,
+  ugi,
+  alb,
+  gcuf
 } from "../assets";
 
 import {
@@ -133,20 +136,30 @@ export const navLinks = [
 export const educationList = [
   {
     id: "education-1",
-    icon: nitk,
-    title: "National Institute of Technology Karnataka, Surathkal",
-    degree: "Bachelor of Technology",
-    duration: "December 2020 - May 2024",
-    content1: "Major: Electronics and Communication Engineering",
-    content2: "Minor: Information Technology",
+    icon: gcuf,
+    title: "Government College University, Faisalabad",
+    degree: "Bachelor of Software Engineering",
+    duration: "September 2019 - August 2023",
+    content1: "Major: Software Engineering",
+    content2: "Grade: 3.78/4 CGPA (A+)",
   },
   {
     id: "education-2",
-    icon: pba,
-    title: "Polkadot Blockchain Academy",
-    degree: "",
-    duration: "May 2024 - June 2024",
-    content1: "Graduated with a distinction in the fifth cohort of the Polkadot Blockchain Academy at the National University of Singapore.",
+    icon: ugi,
+    title: "Unique Group of Institutions",
+    degree: "High School Diploma in Computer Science",
+    duration: "2017 - 2019",
+    content1: "Major: Physics, Mathematics, Computer Science, C and C++",
+    content2: "Grade: A+",
+  },
+  {
+    id: "education-3",
+    icon: alb,
+    title: "AL-BARAKAH (C.E.S)",
+    degree: "Secondary School Certificate",
+    duration: "2015 - 2017",
+    content1: "Major: Physics, Mathematics,and Computer Science",
+    content2: "Grade: A+",
   },
 ];
 

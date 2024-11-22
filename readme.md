@@ -75,6 +75,11 @@ Three main things have to be changed to customize it your way (please open an is
 
 4. Creating a .env file
 
+VITE_GH_TOKEN=
+VITE_EMAIL_SERVICE_ID=
+VITE_EMAIL_TEMPLATE_ID=
+VITE_EMAIL_USER_ID=
+
 Environment variables store sensitive information that vary for the user and should not be checked into source control.
 One such example is the GitHub personal access token to automatically fetch the Open Source Contributions.
 

@@ -47,6 +47,9 @@ import dennisivy from "./dennisivy.png";
 import manipal from "./manipal.png";
 import icon from "./icon.jpg";
 import ethforall from "./ethforall.png";
+import ugi from "./ugi.svg";
+import alb from "./alb.svg";
+import gcuf from "./gcuf.svg";
 
 export {
   quotes,
@@ -97,5 +100,8 @@ export {
   dennisivy,
   manipal,
   icon,
-  ethforall
+  ethforall,
+  ugi,
+  alb,
+  gcuf
 };
