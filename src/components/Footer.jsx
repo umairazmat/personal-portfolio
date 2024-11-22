@@ -77,12 +77,12 @@ const Footer = () => {
                 <h1 className="font-poppins font-semibold text-white text-3xl sm:text-4xl lg:text-5xl leading-tight text-center sm:text-left">
                   LET&apos;S CONNECT!
                 </h1>
-                <p
+                {/* <p
                   className={`${styles.paragraph} mt-5 text-base sm:text-lg lg:text-xl max-w-full md:max-w-[90%] lg:max-w-[75%] text-center sm:text-left`}
                 >
                   Reach out to discuss opportunities, projects, or just to start
                   a conversation.
-                </p>
+                </p> */}
               </div>
 
               <div className="grid grid-cols-1 md:grid-cols-2 gap-12 mt-16">
@@ -191,23 +191,15 @@ const Footer = () => {
               </div>
 
               {/* Say Hello Button */}
-              <div className="flex justify-center mt-8">
-                <a
-                  href="mailto:umairazmatdev@gmail.com"
-                  className="px-6 py-3 bg-teal-400 text-white rounded-md text-lg font-semibold hover:bg-teal-500"
-                >
-                  Say Hello!
-                </a>
-              </div>
             </div>
           </section>
         </div>
       </div>
       <footer className="bg-gray-900 sm:px-16 px-6">
-        <div
+        {/* <div
           className={`${layout.sectionReverse} xl:max-w-[1280px] w-full mx-auto gap-y-4 `}
-        >
-          <div className={` ${layout.sectionInfo}`}>
+        > */}
+        {/* <div className={` ${layout.sectionInfo}`}>
             <h2 className="text-xl font-bold text-teal-200 font-poppins dark:text-white hover:text-teal-200 dark:hover:text-gray-300">
               {aboutMe.name}
             </h2>
@@ -231,7 +223,6 @@ const Footer = () => {
             </div>
 
             <div className="grid grid-cols-2">
-              {/* styles is a prop */}
               <a href={resumeLink} target="_blank">
                 <Button
                   styles="mt-10 mr-3 inline-flex items-center justify-center"
@@ -247,15 +238,37 @@ const Footer = () => {
                 />
               </a>
             </div>
-          </div>
+          </div> */}
 
-          <div className="md:ml-auto mt-10 md:mt-0">
+        {/* <div className="md:ml-auto mt-10 md:mt-0">
             <img
               src={profilePic}
               alt="Umair Azmat"
               className="w-[250px] h-[250px] border-2 border-teal-200 relative z-[5] rounded-full"
             />
-          </div>
+          </div> */}
+        {/* </div> */}
+
+        <div className="flex flex-row mt-4 justify-center pt-4">
+          {socialMedia.map((social, index) => (
+            <a
+              href={social.link}
+              target="_blank"
+              key={social.id}
+              index={index}
+              className="text-white mr-5 text-[25px] hover:text-teal-200"
+            >
+              {React.createElement(social.icon)}
+            </a>
+          ))}
+        </div>
+        <div className="flex justify-center pt-4 pb-4">
+          <a
+            href="mailto:umairazmatdev@gmail.com"
+            className="px-6 py-1 bg-teal-400 text-black rounded-md text-lg font-semibold hover:bg-teal-500"
+          >
+            Say Hello!
+          </a>
         </div>
         <div className="text-center font-poppins font-normal text-dimWhite text-xs sm:text-sm pb-4">
           <p>
