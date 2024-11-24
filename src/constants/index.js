@@ -103,7 +103,8 @@ import {
   SiFirebase,
   SiVercel,
   SiNpm,
-  SiSlack
+  SiSlack,
+  SiChatbot
 } from "react-icons/si";
 
 import {
@@ -122,10 +123,11 @@ import {
 } from "react-icons/io";
 
 import {
-  FaGolang
+  FaGolang,
+  FaWordpressSimple
 } from "react-icons/fa6";
 
-import { DiCss3, DiJava, DiMsqlServer, DiRuby } from "react-icons/di";
+import { DiCss3, DiJava, DiMsqlServer, DiRuby, DiWordpress } from "react-icons/di";
 
 export const resumeLink = "https://drive.google.com/file/d/1rvZR6VKZKPgWx6Q4d5sz2-0wo5H3Nwoc/view?usp=sharing";
 export const repoLink = "https://github.com/umairazmat/personal-portfolio";
@@ -201,9 +203,9 @@ export const achievements = [
     icon: gcuf,
     event: "Semesters Exams",
     position: "4.0/4.0 CGPA",
-    content1: "Top 12 winners among 20k+ registrations",
-    content2: "One of Polygon's Best Public Goods",
-    content3: "Best Module on Biconomy SDK",
+    content1: "Top Position in 2nd & 5th Semesters",
+    content2: "Class Representative for Semester 2-8",
+    // content3: "Best Module on Biconomy SDK",
     // article: "https://www.thehindu.com/news/cities/Mangalore/nitk-iiit-delhi-team-makes-it-to-top-12-winners-in-ethindia-22/article66238923.ece",
     // project: "https://devfolio.co/projects/chargeswap-3527",
     // youtube: "https://youtu.be/9rieTya8Yds?t=3908",
@@ -629,325 +631,320 @@ export const experiences = [
 
 // Add information about all the projects to be listed out in your portfolio
 export const projects = [
-  // {
-  //   id: "project-1",
-  //   title: "Comicify.ai",
-  //   github: "https://github.com/ayush4345/Comicify.ai",
-  //   link: "https://comicify-ai.vercel.app/",
-  //   image: comicify_ai,
-  //   content:
-  //     "Convert any academic/news/boring text into cool comic strips using GPT-3.5 and Stable Diffusion!",
-  //   stack: [
-  //     {
-  //       id: "icon-1",
-  //       icon: SiReact,
-  //       name: "React"
-  //     },
-  //     {
-  //       id: "icon-2",
-  //       icon: SiTailwindcss,
-  //       name: "TailwindCSS"
-  //     },
-  //     {
-  //       id: "icon-3",
-  //       icon: SiOpenai,
-  //       name: "OpenAI"
-  //     },
-  //     {
-  //       id: "icon-4",
-  //       icon: SiGooglecloud,
-  //       name: "Google Cloud Platform"
-  //     },
-  //     {
-  //       id: "icon-5",
-  //       icon: SiFlask,
-  //       name: "Flask"
-  //     },
-  //   ],
-  // },
-  // {
-  //   id: "project-2",
-  //   title: "GreenTrust",
-  //   github: "https://github.com/mittal-parth/GreenTrust",
-  //   link: "https://green-trust-fantom.netlify.app/",
-  //   image: greentrust,
-  //   content:
-  //     "Winning project at 3 hackathons, GreenTrust offers a novel solution for obtaining certification in organic farming by organizing credible and decentralized Participatory Guarantee Systems (PGSs).",
-  //   stack: [
-  //     {
-  //       id: "icon-1",
-  //       icon: SiReact,
-  //       name: "React"
-  //     },
-  //     {
-  //       id: "icon-2",
-  //       icon: SiTailwindcss,
-  //       name: "TailwindCSS"
-  //     },
-  //     {
-  //       id: "icon-3",
-  //       icon: SiNextdotjs,
-  //       name: "Next.js"
-  //     },
-  //     {
-  //       id: "icon-4",
-  //       icon: SiIpfs,
-  //       name: "IPFS"
-  //     },
-  //     {
-  //       id: "icon-5",
-  //       icon: SiSolidity,
-  //       name: "Solidity"
-  //     },
-  //     {
-  //       id: "icon-6",
-  //       icon: IoIosNotificationsOutline,
-  //       name: "Push Protocol"
-  //     },
-  //   ],
-  // },
-  // {
-  //   id: "project-3",
-  //   title: "ChargeSwap",
-  //   github: "https://github.com/CommanderAstern/ChargeSwap",
-  //   link: "https://devfolio.co/projects/chargeswap-3527",
-  //   image: chargeswap,
-  //   content:
-  //     "A Blockchain-based EV-Battery swapping solution - winning project at ETHIndia'22, the world's largest Ethereum Hackathon",
-  //   stack: [
-  //     {
-  //       id: "icon-1",
-  //       icon: SiReact,
-  //       name: "React"
-  //     },
-  //     {
-  //       id: "icon-3",
-  //       icon: SiWeb3Dotjs,
-  //       name: "Web3.js"
-  //     },
-  //     {
-  //       id: "icon-4",
-  //       icon: SiSolidity,
-  //       name: "Solidity"
-  //     },
-  //     {
-  //       id: "icon-5",
-  //       icon: FaHardHat,
-  //       name: "HardHat"
-  //     },
-  //     {
-  //       id: "icon-6",
-  //       icon: SiIpfs,
-  //       name: "IPFS"
-  //     },
-  //     {
-  //       id: "icon-7",
-  //       icon: SiArduino,
-  //       name: "Arduino"
-  //     },
-  //     {
-  //       id: "icon-8",
-  //       icon: IoIosNotificationsOutline,
-  //       name: "Push Protocol"
-  //     },
-  //   ],
-  // },
-  // {
-  //   id: "project-4",
-  //   title: "Samsotech Table Management System",
-  //   github: "",
-  //   link: "https://www.linkedin.com/posts/mittal-parth_technologysolutions-softwaredevelopment-technology-activity-6994915645066809344-WnMY?utm_source=share&utm_medium=member_desktop",
-  //   image: placeicon,
-  //   content:
-  //     "Restaurant, Place, Table and realtime Reservation Management with Multi-Tenant Architecture, RBAC, SMS and Email integration for Samsotech International",
-  //   stack: [
-  //     {
-  //       id: "icon-1",
-  //       icon: SiDotnet,
-  //       name: "Dot Net Core MVC 6"
-  //     },
-  //     {
-  //       id: "icon-2",
-  //       icon: SiBootstrap,
-  //       name: "Bootstrap"
-  //     },
-  //     {
-  //       id: "icon-3",
-  //       icon: DiMsqlServer,
-  //       name: "MS Sql Server"
-  //     },
-  //     {
-  //       id: "icon-4",
-  //       icon: SiJquery,
-  //       name: "jQuery"
-  //     },
-  //     {
-  //       id: "icon-5",
-  //       icon: SiTwilio,
-  //       name: "Twillio"
-  //     },
-  //   ],
-  // },
-  // {
-  //   id: "project-5",
-  //   title: "Non-Teaching Recruitment Portal, NITK",
-  //   github: "",
-  //   link: "http://recruitment.nitk.ac.in/",
-  //   image: recruitment,
-  //   content:
-  //     "The official recruitment portal for non-teaching staff with an admin panel, email notifications and payment integration.",
-  //   stack: [
-  //     {
-  //       id: "icon-1",
-  //       icon: SiRubyonrails,
-  //       name: "Ruby on Rails"
-  //     },
-  //     {
-  //       id: "icon-2",
-  //       icon: SiTailwindcss,
-  //       name: "TailwindCSS"
-  //     },
-  //     {
-  //       id: "icon-3",
-  //       icon: SiJquery,
-  //       name: "jQuery"
-  //     },
-  //   ],
-  // },
-  // {
-  //   id: "project-6",
-  //   title: "Career Development Centre, NITK Website",
-  //   github: "",
-  //   link: "http://cdc.nitk.ac.in/",
-  //   image: cdc,
-  //   content:
-  //     "The official website of CDC, NITK with a custom built CMS.",
-  //   stack: [
-  //     {
-  //       id: "icon-1",
-  //       icon: SiRubyonrails,
-  //       name: "Ruby on Rails"
-  //     },
-  //     {
-  //       id: "icon-2",
-  //       icon: SiBootstrap,
-  //       name: "Bootstrap"
-  //     },
-  //     {
-  //       id: "icon-3",
-  //       icon: SiJavascript,
-  //       name: "JavaScript"
-  //     },
-  //   ],
-  // },
-  // {
-  //   id: "project-7",
-  //   title: "Huntly",
-  //   github: "",
-  //   link: "https://devfolio.co/projects/huntly-b5a9",
-  //   image: huntly,
-  //   content:
-  //     "A cross-platform mobile application that brings people closer to the physical environment and forms meaningful connections by organising real-world Treasure Hunts for free and winning rewards. The app uses machine learning to match users and form teams of like-minded people.",
-  //   stack: [
-  //     {
-  //       id: "icon-1",
-  //       icon: SiDjango,
-  //       name: "Django Rest Framework"
-  //     },
-  //     {
-  //       id: "icon-2",
-  //       icon: SiFlutter,
-  //       name: "Flutter"
-  //     },
-  //     {
-  //       id: "icon-3",
-  //       icon: SiReplit,
-  //       name: "Replit"
-  //     },
-  //     {
-  //       id: "icon-4",
-  //       icon: SiFlask,
-  //       name: "Flask"
-  //     },
-  //     {
-  //       id: "icon-5",
-  //       icon: SiFigma,
-  //       name: "Figma"
-  //     },
-  //     {
-  //       id: "icon-6",
-  //       icon: SiGooglemaps,
-  //       name: "Google Maps API"
-  //     },
-  //   ],
-  // },
-  // {
-  //   id: "project-8",
-  //   title: "Cluboard",
-  //   github: "https://github.com/mittal-parth/Cluboard",
-  //   link: "",
-  //   image: cluboard,
-  //   content:
-  //     "A full-stack web application to facilitate sharing resources in college clubs with email notifications, requests and ticketing system, and analytical dashboards.",
-  //   stack: [
-  //     {
-  //       id: "icon-1",
-  //       icon: SiDjango,
-  //       name: "Django"
-  //     },
-  //     {
-  //       id: "icon-2",
-  //       icon: AiFillHtml5,
-  //       name: "HTML"
-  //     },
-  //     {
-  //       id: "icon-3",
-  //       icon: DiCss3,
-  //       name: "CSS"
-  //     },
-  //     {
-  //       id: "icon-4",
-  //       icon: SiJavascript,
-  //       name: "JavaScript"
-  //     },
-  //     {
-  //       id: "icon-5",
-  //       icon: SiBootstrap,
-  //       name: "Bootstrap"
-  //     },
-  //     {
-  //       id: "icon-6",
-  //       icon: SiChartdotjs,
-  //       name: "Chart.js"
-  //     },
-  //   ],
-  // },
-  // {
-  //   id: "project-9",
-  //   title: "Cash Flow Minimiser",
-  //   github: "https://github.com/mittal-parth/Cash-Flow-Minmiser",
-  //   link: "https://minimise-cash-flow.netlify.app/",
-  //   image: cash_flow,
-  //   content:
-  //     "A React application to help users visualise and minimise cash flow among multiple transactions.",
-  //   stack: [
-  //     {
-  //       id: "icon-1",
-  //       icon: SiReact,
-  //       name: "React"
-  //     },
-  //     {
-  //       id: "icon-2",
-  //       icon: AiFillHtml5,
-  //       name: "HTML"
-  //     },
-  //     {
-  //       id: "icon-3",
-  //       icon: DiCss3,
-  //       name: "CSS"
-  //     }
-  //   ],
-  // },
+  {
+    id: "project-1",
+    title: "GCUF SE Chatbot",
+    github: "https://github.com/umairazmat/gcuf-se-chatbot",
+    link: "https://github.com/umairazmat/gcuf-se-chatbot",
+    image: comicify_ai,
+    content:
+      "Designed an interactive chatbot with Flask and JavaScript, featuring a trained model, intents for query handling, and a user-friendly GUI. Key components include model training, backend integration, and seamless chat functionality, offering a complete guide to chatbot deployment.",
+    stack: [
+      {
+        id: "icon-1",
+        icon: SiReact,
+        name: "React"
+      },
+      {
+        id: "icon-2",
+        icon: SiTailwindcss,
+        name: "TailwindCSS"
+      },
+      {
+        id: "icon-3",
+        icon: SiOpenai,
+        name: "OpenAI"
+      },
+      {
+        id: "icon-4",
+        icon: SiGooglecloud,
+        name: "Google Cloud Platform"
+      },
+      {
+        id: "icon-5",
+        icon: SiFlask,
+        name: "Flask"
+      },
+    ],
+  },
+  {
+    id: "project-2",
+    title: "Earth Green Pulse",
+    github: "https://github.com/umairazmat/Earth-Green-Pulse",
+    link: "https://earth-green-pulse.devlotech.com/",
+    image: greentrust,
+    content:
+      "Developed a data visualization project showcasing CO₂ emissions using the OCO- 2 MIP Top - down CO₂ Budgets dataset (2015–2020). Created interactive maps and graphs with Python and Plotly to highlight emission trends and major contributors, hosted on a WordPress platform for accessibility and awareness.",
+    stack: [
+      {
+        id: "icon-1",
+        icon: SiReact,
+        name: "React"
+      },
+      {
+        id: "icon-2",
+        icon: SiTailwindcss,
+        name: "TailwindCSS"
+      },
+      {
+        id: "icon-3",
+        icon: SiNextdotjs,
+        name: "Next.js"
+      },
+      {
+        id: "icon-4",
+        icon: DiWordpress,
+        name: "Wordpress"
+      },
+      {
+        id: "icon-5",
+        icon: SiSolidity,
+        name: "Solidity"
+      },
+      {
+        id: "icon-6",
+        icon: IoIosNotificationsOutline,
+        name: "Push Protocol"
+      },
+    ],
+  },
+  {
+    id: "project-3",
+    title: "ChargeSwap",
+    github: "https://github.com/umairazmat/IELTS-Bands-Master",
+    link: "https://huggingface.co/spaces/umairazmat/IELTS-Bands-Master",
+    image: chargeswap,
+    content:
+      "IELTS Bands Master is a web application designed to help you practice and enhance your IELTS Writing and Speaking skills. By simulating the IELTS test, the app provides real-time feedback based on IELTS scoring criteria. The app uses AI to analyze your responses and gives actionable insights to help you improve your fluency, vocabulary, grammar, and overall band score.",
+    stack: [
+      {
+        id: "icon-1",
+        icon: SiReact,
+        name: "React"
+      },
+      {
+        id: "icon-3",
+        icon: SiWeb3Dotjs,
+        name: "Web3.js"
+      },
+      {
+        id: "icon-4",
+        icon: SiSolidity,
+        name: "Solidity"
+      },
+      {
+        id: "icon-5",
+        icon: FaHardHat,
+        name: "Hugging Face"
+      },
+      {
+        id: "icon-6",
+        icon: SiIpfs,
+        name: "IPFS"
+      },
+      {
+        id: "icon-7",
+        icon: SiArduino,
+        name: "Arduino"
+      },
+      {
+        id: "icon-8",
+        icon: IoIosNotificationsOutline,
+        name: "Push Protocol"
+      },
+    ],
+  },
+  {
+    id: "project-4",
+    title: "ConfigPilot",
+    github: "https://github.com/umairazmat/config-pilot",
+    link: "",
+    image: placeicon,
+    content:
+      "ConfigPilot automates and simplifies network device configurations for routers, switches, and servers, offering step-by-step guidance for both IT professionals and non-technical users.",
+    stack: [
+      {
+        id: "icon-1",
+        icon: SiDotnet,
+        name: "Dot Net Core MVC 6"
+      },
+      {
+        id: "icon-2",
+        icon: SiBootstrap,
+        name: "Bootstrap"
+      },
+      {
+        id: "icon-3",
+        icon: DiMsqlServer,
+        name: "MS Sql Server"
+      },
+      {
+        id: "icon-4",
+        icon: SiJquery,
+        name: "jQuery"
+      },
+      {
+        id: "icon-5",
+        icon: SiTwilio,
+        name: "Twillio"
+      },
+    ],
+  },
+  {
+    id: "project-5",
+    title: "AI Codify",
+    github: "https://github.com/umairazmat/Ai-Codify",
+    link: "http://recruitment.nitk.ac.in/",
+    image: recruitment,
+    content:
+      "A smart tool for distributed teams to automate code reviews, refactor efficiently, and get real-time AI-driven feedback.",
+    stack: [
+      {
+        id: "icon-1",
+        icon: SiStreamlit,
+        name: "Streamlit"
+      },
+      {
+        id: "icon-2",
+        icon: SiTailwindcss,
+        name: "TailwindCSS"
+      },
+      {
+        id: "icon-3",
+        icon: SiJquery,
+        name: "jQuery"
+      },
+      {
+        id: "icon-4",
+        icon: SiChatbot,
+        name: "GPT"
+      },
+    ],
+  },
+  {
+    id: "project-6",
+    title: "De Mastery",
+    github: "https://demastery.devlotech.com/",
+    link: "https://demastery.devlotech.com/",
+    image: cdc,
+    content:
+      "Edtech platform for students to access resources, attend workshops, and connect with mentors for career guidance.",
+    stack: [
+      {
+        id: "icon-1",
+        icon: FaWordpressSimple,
+        name: "Worpress"
+      },
+      {
+        id: "icon-2",
+        icon: SiBootstrap,
+        name: "Bootstrap"
+      },
+      {
+        id: "icon-3",
+        icon: SiJavascript,
+        name: "JavaScript"
+      },
+    ],
+  },
+  {
+    id: "project-7",
+    title: "VR Gaming Coming Soon",
+    github: "",
+    link: "https://vrgaming.devlotech.com/",
+    image: huntly,
+    content:
+      "A cross-platform mobile application that brings people closer to the physical environment and forms meaningful connections by organising real-world Treasure Hunts for free and winning rewards. The app uses machine learning to match users and form teams of like-minded people.",
+    stack: [
+      {
+        id: "icon-1",
+        icon: FaWordpressSimple,
+        name: "Worpress"
+      },
+      {
+        id: "icon-2",
+        icon: SiReplit,
+        name: "Replit"
+      },
+      {
+        id: "icon-3",
+        icon: SiFlask,
+        name: "Flask"
+      },
+      {
+        id: "icon-4",
+        icon: SiFigma,
+        name: "Figma"
+      },
+    ],
+  },
+  {
+    id: "project-8",
+    title: "Fastech",
+    github: "",
+    link: "https://fastech.services/",
+    image: cluboard,
+    content:
+      "Fastech Energy provide solar panel installation services in Pakistan.",
+    stack: [
+      {
+        id: "icon-1",
+        icon: FaWordpressSimple,
+        name: "Worpress"
+      },
+      {
+        id: "icon-2",
+        icon: AiFillHtml5,
+        name: "HTML"
+      },
+      {
+        id: "icon-3",
+        icon: DiCss3,
+        name: "CSS"
+      },
+      {
+        id: "icon-4",
+        icon: SiJavascript,
+        name: "JavaScript"
+      },
+      {
+        id: "icon-5",
+        icon: SiBootstrap,
+        name: "Bootstrap"
+      },
+      {
+        id: "icon-6",
+        icon: SiChartdotjs,
+        name: "Chart.js"
+      },
+    ],
+  },
+  {
+    id: "project-9",
+    title: "Devlotech",
+    // github: "https://github.com/mittal-parth/Cash-Flow-Minmiser",
+    link: "https://devlotech.com/",
+    image: cash_flow,
+    content:
+      "Devlotech DevloTech is a premier software development company delivering cutting-edge web, mobile, blockchain, and AI solutions.",
+    stack: [
+      {
+        id: "icon-1",
+        icon: FaWordpressSimple,
+        name: "Worpress"
+      },
+      {
+        id: "icon-2",
+        icon: AiFillHtml5,
+        name: "HTML"
+      },
+      {
+        id: "icon-3",
+        icon: DiCss3,
+        name: "CSS"
+      }
+    ],
+  },
   {
     id: "project-10",
     title: "Portfolio",
