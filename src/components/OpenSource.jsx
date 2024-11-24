@@ -170,7 +170,7 @@ const OpenSource = () => {
         <div className="container px-5 mx-auto flex items-center justify-center">
           <Swiper
             modules={[Autoplay]}
-            slidesPerView={3}
+            slidesPerView={1}
             spaceBetween={30}
             autoplay={{
               delay: 1200,
@@ -178,9 +178,18 @@ const OpenSource = () => {
               disableOnInteraction: true,
             }}
             breakpoints={{
-              640: { slidesPerView: 1 },
-              768: { slidesPerView: 2 },
-              1024: { slidesPerView: 3 },
+              // 640px and below (small screens)
+              640: {
+                slidesPerView: 1, // 1 item per slide on small screens
+              },
+              // 768px and above (medium screens)
+              768: {
+                slidesPerView: 2, // 2 items per slide on medium screens
+              },
+              // 1024px and above (large screens)
+              1024: {
+                slidesPerView: 3, // 3 items per slide on large screens
+              },
             }}
             className="testimonials-swiper"
           >
