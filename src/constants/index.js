@@ -463,7 +463,7 @@ export const skills = [
 // Add your current/past professional work experience here
 export const experiences = [
   {
-    organisation: "Powersoft19, Lahore Pakistan",
+    organisation: "Powersoft19, Pakistan",
     logo: ps19,
     link: "https://www.powersoft19.com/",
     positions: [
@@ -472,11 +472,15 @@ export const experiences = [
         duration: "Sep 2023 - Present",
         content: [
           {
-            text: "➾ Working in the DBaaS Control Plane team in the Database Unit.",
+            text: "➾ Developed modern web applications using React.js, Next.js, Angular, and .NET, contributing to diverse projects like eCommerce and real estate.",
             link: "",
           },
           {
-            text: "➾ Extended support for Azure for reachability analysis of assets for cloud security posture management.",
+            text: "➾ Designed systems like a Charging Station Management System (CSMS) and researched Open Charge Point Protocols (OCPP).",
+            link: ""
+          },
+          {
+            text: "➾ Delivered lectures on React.js, enhancing team skills, and built tools to optimize development processes.",
             link: ""
           }
         ],
@@ -498,45 +502,29 @@ export const experiences = [
     ],
   },
   {
-    organisation: "Averlon",
-    logo: smit,
+    organisation: "Lablabai, Stockholm, Sweden",
+    logo: lablabai,
     link: "",
     positions: [
       {
-        title: "Software Developer Intern",
-        duration: "Sept 2023 - Feb 2024",
+        title: "Hackathon Enthusiast",
+        duration: "Aug 2024 - Present",
         content: [
           {
-            text: "Added support for the discoverability of Microsoft Azure assets utilising Go and Gremlin.",
-            link: ""
-          },
-          {
-            text: "Extended support for Azure for reachability analysis of assets for cloud security posture management.",
-            link: ""
-          }
-        ],
-      },
-    ],
-  },
-  {
-    organisation: "Lablabai, NITK Surathkal",
-    logo: lablabai,
-    link: "https://iris.nitk.ac.in/about_us",
-    positions: [
-      {
-        title: "Tech Lead",
-        duration: "Apr 2023 - Apr 2024",
-        content: [
-          {
-            text: "Led a team of 40+ students in digitizing administrative, academic and alumni-related work.",
+            text: "➾ Participated in international AI hackathons, collaborating globally and building innovative generative AI projects.",
             link: "",
           },
           {
-            text: "Managed all phases of Software Development Life Cycle (SDLC) for 15+ modules.",
+            text: "➾ Enhanced generative AI skills by leveraging hackathons to create impactful solutions using LLMs and AI technologies.",
+            link: "",
+          },
+          {
+            text: "➾ Embraced ChatGPT’s rise, recognizing equal opportunities in the evolving field of generative AI.",
             link: "",
           },
         ],
       },
+
       // {
       //   title: "Web Lead",
       //   duration: "Apr 2022 - Present",
@@ -569,21 +557,47 @@ export const experiences = [
       // },
     ],
   },
+  ,
   {
-    organisation: "AMAL Academy, Pakistan",
-    logo: amal,
+    organisation: "iCodeGuru, Santa Clara, California",
+    logo: icodeguru,
     link: "",
     positions: [
       {
-        title: "Software Developer Intern",
-        duration: "Sept 2023 - Feb 2024",
+        title: "Trainer & Moderator",
+        duration: "Aug 2024 - Present",
         content: [
           {
-            text: "Added support for the discoverability of Microsoft Azure assets utilising Go and Gremlin.",
+            text: "➾ Trainer and moderator at 𝐢𝐂𝐨𝐝𝐞𝐆𝐮𝐫𝐮, engaging 20,000+ members and active learners.",
             link: ""
           },
           {
-            text: "Extended support for Azure for reachability analysis of assets for cloud security posture management.",
+            text: "➾ Conducting DSA workshops and leading hackathon teams globally.",
+            link: ""
+          }
+        ],
+      },
+    ],
+  },
+  {
+    organisation: "Saylani Mass IT Training, Pakistan",
+    logo: smit,
+    link: "https://www.linkedin.com/company/saylanimasstraining",
+    positions: [
+      {
+        title: "Tech Trainer",
+        duration: "May 2022 - Apr 2023",
+        content: [
+          {
+            text: "➾ Trained 500+ students in MERN stack development, mobile app creation, and database management.",
+            link: ""
+          },
+          {
+            text: "➾ Delivered hands-on sessions on technologies like React.js, React Native, Node.js, MongoDB, Firebase, and more.",
+            link: ""
+          },
+          {
+            text: "➾ Empowered students to build real-world applications with practical guidance and industry-relevant skills.",
             link: ""
           }
         ],
@@ -597,41 +611,20 @@ export const experiences = [
     positions: [
       {
         title: "Software Developer Intern",
-        duration: "Sept 2023 - Feb 2024",
+        duration: "June 2022 - Sep 2022",
         content: [
           {
-            text: "Added support for the discoverability of Microsoft Azure assets utilising Go and Gremlin.",
+            text: "➾ Developed 4 WordPress websites, including e-commerce, Bitcoin book page, journal site, and university research platform, enhancing user experience.",
             link: ""
           },
           {
-            text: "Extended support for Azure for reachability analysis of assets for cloud security posture management.",
+            text: "➾ Led a team of 2 developers, optimizing workflows with a Notion-based ticketing system, reducing issue resolution time and improving customer satisfaction.",
             link: ""
           }
         ],
       },
     ],
-  },
-  {
-    organisation: "QNAR International, Pakistan",
-    logo: icodeguru,
-    link: "",
-    positions: [
-      {
-        title: "Software Developer Intern",
-        duration: "Sept 2023 - Feb 2024",
-        content: [
-          {
-            text: "Added support for the discoverability of Microsoft Azure assets utilising Go and Gremlin.",
-            link: ""
-          },
-          {
-            text: "Extended support for Azure for reachability analysis of assets for cloud security posture management.",
-            link: ""
-          }
-        ],
-      },
-    ],
-  },
+  }
 ];
 
 // Add information about all the projects to be listed out in your portfolio
