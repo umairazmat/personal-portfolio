@@ -156,8 +156,8 @@ const Hero = () => {
             , I enjoy building scalable, user-focused applications.
             <br />
             <br />
-            I'm <span className="text-teal-500 font-bold">Umair</span>, a
-            full-stack software engineer from Lahore, PK. I specialize in{" "}
+            I'm , a full-stack software engineer from Lahore, PK. I specialize
+            in{" "}
             <span className="text-teal-500 font-bold">
               Generative AI applications
             </span>{" "}

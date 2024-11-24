@@ -173,7 +173,7 @@ const OpenSource = () => {
             slidesPerView={1}
             spaceBetween={30}
             autoplay={{
-              delay: 1200,
+              delay: 2000,
               pauseOnMouseEnter: true,
               disableOnInteraction: true,
             }}
