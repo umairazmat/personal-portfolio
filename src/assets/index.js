@@ -64,6 +64,8 @@ import kamal from "./kamal.jpeg";
 import urooj from "./urooj.jpeg";
 import abdullah from "./abdullah.jpeg";
 import ahmad from "./ahmad.jpeg";
+import fastech from "./fastech.png";
+import devlotech from "./devlotech.svg";
 
 export {
   quotes,
@@ -132,6 +134,7 @@ export {
   kamal,
   urooj,
   abdullah,
-
+  fastech,
+  devlotech
 
 };

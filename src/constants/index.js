@@ -44,6 +44,8 @@ import {
   kamal,
   urooj,
   abdullah,
+  fastech,
+  devlotech
 
 } from "../assets";
 
@@ -883,7 +885,7 @@ export const projects = [
     title: "Fastech",
     github: "",
     link: "https://fastech.services/",
-    image: cluboard,
+    image: fastech,
     content:
       "Fastech Energy provide solar panel installation services in Pakistan.",
     stack: [
@@ -924,7 +926,7 @@ export const projects = [
     title: "Devlotech",
     // github: "https://github.com/mittal-parth/Cash-Flow-Minmiser",
     link: "https://devlotech.com/",
-    image: cash_flow,
+    image: devlotech,
     content:
       "Devlotech DevloTech is a premier software development company delivering cutting-edge web, mobile, blockchain, and AI solutions.",
     stack: [
@@ -1063,34 +1065,37 @@ export const stats = [
 export const extraCurricular = [
   {
     id: 1,
-    organisation: "AMAL",
+    organisation: "Amal Academy",
     title: "Professional Career Fellowship",
-    duration: "December 2021 - Present",
+    duration: "March 2024 - May 2024",
     content: [
       {
-        text: "Selected among 5 students across the country to lead the initiative and grow the culture of Blockchain and Ethereum, powered by Devfolio.",
-        link: "https://www.linkedin.com/feed/update/urn:li:activity:7097977924686942209/",
+        text: "Selected among 4,300+ applicants for demonstrating passion, commitment, and a growth mindset.",
       },
       {
-        text: "Led a cohort of 37 selected students over 6 weeks to learn and build in the Ethereum ecosystem.",
-        link: "https://www.linkedin.com/feed/update/urn:li:activity:7095310520282480641/",
+        text: "Enhanced public speaking, presentation, and teamwork skills while leading an 8-10 member group on collaborative projects.",
+      },
+      {
+        text: "Led a mega project reducing plastic waste and providing clean water for wildlife by creating eco-friendly bird pods.",
       },
     ],
     logo: amal,
   },
+
   {
     id: 2,
     organisation: "IBM",
     title: "Full Stack Developer Professional",
-    duration: "December 2021 - Present",
+    duration: "September 2023",
     content: [
       {
-        text: "Started HackClub to promote and spread the culture of Hackathons in the college. 20+ hackathons particiaptions, 15+ wins over the year.",
-        link: "",
+        text: "Earned IBM Full Stack Developer Professional Certificate through a Coursera initiative by my university and HEC.",
       },
       {
-        text: "Co-designed and developed the official website of Incident, NITK with 15K+ visitors",
-        link: "https://incident.nitk.ac.in/",
+        text: "Gained expertise in HTML, CSS, JavaScript, Node.js, React, and cloud-based app development.",
+      },
+      {
+        text: "Built RESTful APIs, deployed applications, and mastered version control with Git.",
       },
     ],
     logo: ibm,
@@ -1099,15 +1104,16 @@ export const extraCurricular = [
     id: 3,
     organisation: "META",
     title: "Frontend Developer Professional",
-    duration: "Sep 2021 - Present",
+    duration: "Sepetember 2023",
     content: [
       {
-        text: "Qualified for the nationals of Indian Hip Hop Dance Championship",
-        link: "",
+        text: "Completed Meta Front-End Developer Professional Certificate through a Coursera program by my university and HEC.",
       },
       {
-        text: "Won 7 inter-college solo dance competitions",
-        link: "",
+        text: "Mastered skills in HTML, CSS, JavaScript, React, and responsive web design.",
+      },
+      {
+        text: "Developed dynamic web applications and practiced hands-on projects for portfolio enhancement.",
       },
     ],
     logo: meta,
@@ -1115,12 +1121,17 @@ export const extraCurricular = [
   {
     id: 4,
     organisation: "SMIT",
-    title: "Web & Mobile App Student",
-    duration: "Jan 2022 - Jan 2022",
+    title: "Web & Mobile App Development Student",
+    duration: "Sep 2021 - Aug 2022",
     content: [
       {
-        text: "Mentored 150+ students in a month-long Web Development and Ruby on Rails Bootcamp",
-        link: "https://github.com/IRIS-NITK/IRIS-RoR-Bootcamp-2021",
+        text: "Completed an intensive Web and Mobile App Development program, specializing in MERN stack (MongoDB, Express.js, React, Node.js) and React Native.",
+      },
+      {
+        text: "Led and mentored 150+ students in a month-long Web Development Bootcamp, focusing on full-stack development and hands-on learning.",
+      },
+      {
+        text: "Participated in multiple hackathons, which led to teaching opportunities and the start of my freelance career in web and mobile app development.",
       },
     ],
     logo: smit,
@@ -1129,19 +1140,21 @@ export const extraCurricular = [
     id: 5,
     organisation: "PFTP",
     title: "Full Stack Developer",
-    duration: "Sep 2021 - Apr 2022",
+    duration: "Jun 2022 - Oct 2022",
     content: [
       {
-        text: "Organised the season 3 of the E-Cell NITK Podcast",
-        link: "https://www.youtube.com/watch?v=uA-Yrk6bVDc",
+        text: "Completed a comprehensive Full-Stack Web Development program with a focus on freelancing, achieving A+ grade and a Gold Medal.",
       },
       {
-        text: "Member of the Sponsorship and E-Talks team for E-Summit'22",
-        link: "",
+        text: "Acquired key skills in HTML, CSS, JavaScript, React, Angular, Node.js, MySQL, MongoDB, and cloud deployment (Vercel, Heroku).",
+      },
+      {
+        text: "Started freelancing with a focus on web and mobile app development, applying the skills gained from the training program.",
       },
     ],
     logo: pftp,
-  },
+  }
+
 ];
 
 // Links to your social media profiles
