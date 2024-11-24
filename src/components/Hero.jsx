@@ -143,17 +143,59 @@ const Hero = () => {
             About Me
           </h1>
           <p
-            className={`${styles.paragraph} mt-5 text-base sm:text-lg lg:text-xl max-w-full md:max-w-[90%] lg:max-w-[75%] text-center sm:text-left`}
+            className={`text-dimWhite text-sm mt-4 sm:text-base lg:text-lg max-w-full md:max-w-[90%] lg:max-w-[80%] text-center sm:text-left leading-relaxed`}
           >
-            My name is Umair Azmat. I am a software engineer with a passion for
-            problem-solving, creating efficient solutions, and exploring new
-            technologies. With experience in JavaScript, React, and backend
-            development, I enjoy building scalable, user-focused applications.
+            My name is{" "}
+            <span className="text-teal-500 font-bold">Umair Azmat</span>. I am a
+            software engineer with a passion for problem-solving, creating
+            efficient solutions, and exploring new technologies. With experience
+            in{" "}
+            <span className="text-teal-500 font-bold">
+              JavaScript, React, and backend development
+            </span>
+            , I enjoy building scalable, user-focused applications.
+            <br />
+            <br />
+            I'm <span className="text-teal-500 font-bold">Umair</span>, a
+            full-stack software engineer from Lahore, PK. I specialize in{" "}
+            <span className="text-teal-500 font-bold">
+              Generative AI applications
+            </span>{" "}
+            (Python, LLMs, Vectara, RAG),{" "}
+            <span className="text-teal-500 font-bold">web apps (MERN)</span>,
+            and{" "}
+            <span className="text-teal-500 font-bold">
+              mobile apps (React Native)
+            </span>
+            . I have a diverse background, having worked in teams, participated
+            in international hackathons, and freelanced.
+            <br />
+            <br />
+            As a tech trainer at{" "}
+            <span className="text-teal-500 font-bold">
+              Saylani Welfare Mass Training & Job Creation Program
+            </span>
+            , I’ve taught{" "}
+            <span className="text-teal-500 font-bold">500+ students</span>,
+            simplifying complex programming concepts. (Want to see how I train?{" "}
+            <span className="text-teal-500 font-bold">Click here.</span>)
+            <br />
+            <br />
+            I’ve participated in{" "}
+            <span className="text-teal-500 font-bold">AI hackathons</span> and
+            won one of them. I graduated from{" "}
+            <span className="text-teal-500 font-bold">
+              Government College University, Faisalabad
+            </span>
+            , in <span className="text-teal-500 font-bold">September 2023</span>
+            . Currently, I'm a software engineer at{" "}
+            <span className="text-teal-500 font-bold">Powersoft19</span> and aim
+            to pursue further studies in the United States to advance technology
+            research.
           </p>
         </div>
-
-        <div className="flex-1 flex justify-around relative mt-8 md:mt-0">
-          <div className=" overflow-hidden border-4 border-teal-500 w-52 h-52 sm:w-40 sm:h-40 md:w-48 md:h-48 lg:w-56 lg:h-56">
+        <div className="flex flex-col justify-center items-center relative mt-8 md:mt-0">
+          <div className="overflow-hidden border-4 border-teal-500 w-52 h-52 sm:w-40 sm:h-40 md:w-48 md:h-48 lg:w-56 lg:h-56">
             <img
               src={profilePic}
               alt="Umair Azmat"
