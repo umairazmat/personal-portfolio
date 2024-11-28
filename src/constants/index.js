@@ -222,6 +222,18 @@ export const achievements = [
     content3: "",
     // github: "https://github.com/pranav2305/GreenTrust",
   },
+  {
+    id: "a-3",
+    icon: gcuf,
+    event: "Fully Funded Scholarship",
+    position: "Government of Punjab, Pakistan",
+    content1: "Covered all tuition fees",
+    content2: "Monthly stipend is also provided",
+    // content3: "Best Module on Biconomy SDK",
+    // article: "https://www.thehindu.com/news/cities/Mangalore/nitk-iiit-delhi-team-makes-it-to-top-12-winners-in-ethindia-22/article66238923.ece",
+    // project: "https://devfolio.co/projects/chargeswap-3527",
+    // youtube: "https://youtu.be/9rieTya8Yds?t=3908",
+  },
   // {
   //   id: "a-3",
   //   icon: lightspeed,
