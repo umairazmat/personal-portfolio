@@ -131,7 +131,7 @@ import {
 
 import { DiCss3, DiJava, DiMsqlServer, DiRuby, DiWordpress } from "react-icons/di";
 
-export const resumeLink = "https://drive.google.com/file/d/1rvZR6VKZKPgWx6Q4d5sz2-0wo5H3Nwoc/view?usp=sharing";
+export const resumeLink = "https://drive.google.com/file/d/1pC2UOwvxz43fC2zlM-_Heq5Hsf7peQ05/view?usp=sharing";
 export const repoLink = "https://github.com/umairazmat/personal-portfolio";
 export const profileLink = "https://www.linkedin.com/in/umairazmat/"
 export const callToAction = "https://www.linkedin.com/in/umairazmat";
