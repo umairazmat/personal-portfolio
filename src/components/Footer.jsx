@@ -16,7 +16,7 @@ import Button from "./Button";
 import { profilePic } from "../assets";
 import { layout } from "../style";
 import {
-  resumeLink,
+  CVLink,
   repoLink,
   socialMedia,
   aboutMe,
@@ -223,10 +223,10 @@ const Footer = () => {
             </div>
 
             <div className="grid grid-cols-2">
-              <a href={resumeLink} target="_blank">
+              <a href={CVLink} target="_blank">
                 <Button
                   styles="mt-10 mr-3 inline-flex items-center justify-center"
-                  text="Resume"
+                  text="CV"
                   icon={AiFillGithub}
                 />
               </a>

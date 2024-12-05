@@ -3,7 +3,7 @@ import styles from "../style";
 import LetsConnect from "./LetsConnect";
 import Lottie from "react-lottie-player";
 import animationData from "../lotties/person-coding.json";
-import { aboutMe, repoLink, resumeLink, socialMedia } from "../constants";
+import { aboutMe, repoLink, CVLink, socialMedia } from "../constants";
 import { AiOutlineFilePdf } from "react-icons/ai";
 import Button from "./Button";
 import { FaGithub } from "react-icons/fa";
@@ -95,10 +95,10 @@ const Hero = () => {
           {/* CV button */}
           <div className="grid grid-cols-2">
             {/* styles is a prop */}
-            <a href={resumeLink} target="_blank">
+            <a href={CVLink} target="_blank">
               <Button
                 styles="mt-10 mr-3 inline-flex items-center justify-center"
-                text="Resume"
+                text="CV"
                 icon={AiOutlineFilePdf}
               />
             </a>
